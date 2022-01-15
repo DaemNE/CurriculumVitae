@@ -1,0 +1,269 @@
+.border-body {
+    margin: 0px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width:200px;
+    height: 50px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+.button:active {
+    background-color: #1c1d25;
+    color: #808080
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.project-image {
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 25px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: orange;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0px;
+}
+
+.contact-info {
+    margin-bottom: 80px;
+}
+
+.contact-form {
+    padding-bottom: 20px;
+}
+
+.button-CV {
+    border-radius: 12px;
+    padding: 14px 20px;
+    font-size: 16px;
+    background-color: #e7e7e7; color: black;
+    justify-content: flex-end;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.button-CV:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+.alert {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.adjust-text {
+    height: 100px;
+
+}
+  
+
+.closebtn:hover {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+li {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h4 {
+   height: 50px;
+}
+
+p {
+    margin: 0px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        font-size: 30px;
+        color: white;
+        margin: 35px;
+        align-self: flex-end;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+}
