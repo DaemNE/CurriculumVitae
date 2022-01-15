@@ -97,7 +97,7 @@
 
 .project-image {
     width: 300px;
-    border-radius: 150px;
+    border-radius: 25px;
     margin-top: 25px;
 }
 
@@ -135,15 +135,14 @@
 .button-CV:hover {
     background-color: #4CAF50; /* Green */
     color: white;
-  }
+}
 
 .alert {
     padding: 20px;
     background-color: green;
     color: white;
     margin-bottom: 15px;
-  }
-  
+}
   
 .closebtn {
     margin-left: 15px;
@@ -156,14 +155,12 @@
     transition: 0.3s;
 }
 
-.adjust-text {
-    height: 100px;
-
-}
-  
-
 .closebtn:hover {
     color: black;
+}
+
+.adjust-text {
+    height: 150px;
 }
 
 footer {
